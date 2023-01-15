@@ -9,11 +9,11 @@ lazy val root = (project in file("."))
     
     libraryDependencies ++= Seq(
       // JVM setup
-      "org.typelevel" %% "feral-lambda" % "0.1.0-M1",
+      "org.typelevel" %% "feral-lambda" % "0.1.0-M13",
 
       // Optional, specialized integrations, available for both JS and JVM
-      "org.typelevel" %%% "feral-lambda-http4s" % "0.1.0-M1",
-      "org.typelevel" %%% "feral-lambda-cloudformation-custom-resource" % "0.1.0-M1",
+      "org.typelevel" %%% "feral-lambda-http4s" % "0.1.0-M13",
+      "org.typelevel" %%% "feral-lambda-cloudformation-custom-resource" % "0.1.0-M13",
 
       // For the example
       "org.tpolecat" %%% "natchez-xray" % natchezVersion,
